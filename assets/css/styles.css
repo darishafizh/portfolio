@@ -644,8 +644,7 @@ body.light-theme {
   padding-top: 1rem;
 }
 
-.work__filters,
-.skills__filters {
+.work__filters {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -653,8 +652,7 @@ body.light-theme {
   margin-bottom: 2rem;
 }
 
-.work__item,
-.skills__item {
+.work__item {
   cursor: pointer;
   color: var(--title-color);
   padding: 0.25rem 0.75rem;
@@ -697,8 +695,7 @@ body.light-theme {
 }
 
 /* Active item work*/
-.active-work,
-.active-skills {
+.active-work {
   background-color: var(--first-color);
   color: var(--body-color);
 }
@@ -952,8 +949,7 @@ body.light-theme {
     font-size: var(--small-font-size);
   }
 
-  .work__filters,
-  .skills__filters {
+  .work__filters {
     column-gap: 0.25rem;
   }
 }

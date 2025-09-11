@@ -30,25 +30,6 @@ modalClose.forEach((mc) => {
   });
 });
 
-/*=============== MIXITUP FILTER FOR SKILLS ===============*/
-let mixerSkills = mixitup('.skills__container', {
-  selectors: {
-    target: '.skills__content',
-  },
-  animation: {
-    duration: 300,
-  },
-});
-
-const linkSkills = document.querySelectorAll('.skills__item');
-
-function activeskills() {
-  linkSkills.forEach((l) => l.classList.remove('active-skills'));
-  this.classList.add('active-skills');
-}
-
-linkSkills.forEach((l) => l.addEventListener('click', activeskills));
-
 /*=============== MIXITUP FILTER PORTFOLIO ===============*/
 
 let mixerPortfolio = mixitup('.work__container', {
